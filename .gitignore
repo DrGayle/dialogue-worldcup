@@ -1,0 +1,13 @@
+node_modules
+dist
+.vercel
+
+# Environment files — never commit secrets. Catches .env, .env.local, and any
+# stray .env* artifacts; keep the checked-in template.
+.env*
+!.env.example
+
+# Local-only editor/tooling config
+.claude/settings.local.json
+.DS_Store
+*.log
