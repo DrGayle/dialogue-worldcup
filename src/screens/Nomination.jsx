@@ -112,7 +112,8 @@ export default function Nomination({ proposal }) {
 
       {/* 5. Journey sentence */}
       <p className="text-center text-teal-700">
-        On July 19, Dialogue's first class begins its journey toward September 3.
+        The Men's World Cup final is July 19. Dialogue's first class starts
+        September 3.
       </p>
 
       {/* 6. Shareable team card */}
