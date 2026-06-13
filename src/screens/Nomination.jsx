@@ -5,7 +5,7 @@ import { ZEFFY_URL } from "../zeffy.js";
 const FINAL_DATE = new Date("2026-07-19T00:00:00");
 
 const SHARE_TEXT =
-  "I nominated my World Cup English-learning team for Dialogue. You can too.";
+  "I nominated my World Cup English-learning team for Dialogue: The English Language School of the People. You can too. dialogueschool.org";
 
 function pluralize(n, word) {
   return `${n} ${word}${n === 1 ? "" : "s"}`;
@@ -114,6 +114,20 @@ export default function Nomination({ proposal }) {
       <p className="text-center text-teal-700">
         The Men's World Cup final is July 19. Dialogue's first class starts
         September 3.
+      </p>
+
+      {/* Tagline + site link */}
+      <p className="text-center text-sm text-teal-600">
+        Dialogue: The English Language School of the People — free, intensive,
+        live, expert English instruction, anywhere.{" "}
+        <a
+          href="https://dialogueschool.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-teal-700 underline hover:text-teal-800"
+        >
+          dialogueschool.org
+        </a>
       </p>
 
       {/* 6. Shareable team card */}
