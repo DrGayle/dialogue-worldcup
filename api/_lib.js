@@ -1,6 +1,6 @@
 // Shared roster helpers for the Anthropic-backed endpoints. Files prefixed with
 // "_" are not treated as routes by Vercel, but can be imported by routes.
-import players from "../src/data/players.json";
+import players from "../src/data/players.json" with { type: "json" };
 
 export const MODEL = "claude-opus-4-8";
 
